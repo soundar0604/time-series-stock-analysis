@@ -7,14 +7,14 @@ scikit-learn
 
 
 ### README.md
-# 📈 Stock Price Time Series Analysis
+# Stock Price Time Series Analysis
 
 This project analyzes stock price data for different companies using ARIMA models.  
 It generates plots showing stock prices over time and forecasts future trends.
 
 ---
 
-## 🚀 Features
+## Features
 - Load stock price data from **CSV** (`Q3_Q4_stock_data.csv`).
 - Preprocess data (handle missing values, date parsing).
 - Train an **ARIMA model** for each company.
