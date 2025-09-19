@@ -26,7 +26,7 @@ It generates plots showing stock prices over time and forecasts future trends.
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 .
 ├── Time_Series_Analysis.py   # Main script
@@ -36,34 +36,17 @@ It generates plots showing stock prices over time and forecasts future trends.
 └── .github/workflows/        # GitHub Actions workflows
 
 
-
-
-## ⚙️ Installation
-
-Clone the repo and install dependencies:
-
-bash
-git clone https://github.com/your-username/your-repo.git
-cd your-repo
-pip install -r requirements.txt
-
-
-
-
-## ▶️ Usage
+## Usage:
 
 Run the analysis script:
 
-BASH
+## BASH
 python Time_Series_Analysis.py
 
----
+## Plots will be saved in the 'plots/' directory.
 
-Plots will be saved in the 'plots/' directory.
 
----
-
-## 🤖 GitHub Actions Workflow
+## GitHub Actions Workflow
 
 This project includes a CI workflow that:
 - Installs dependencies.
@@ -72,7 +55,7 @@ This project includes a CI workflow that:
 
 You can manually trigger the workflow or it runs automatically on pushes.
 
-📊 Example Output
+## Example Output
 
 {Company}_stock_price_plot.png` saved inside `plots/`.
 - Example evaluation metrics printed to console:
